@@ -1,0 +1,61 @@
+This is the dummy response from LLM.
+
+Sure! Here's an example of a simple Python code that calculates the sum of two numbers:
+
+```python
+# Input the two numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Calculate the sum
+sum = num1 + num2
+
+# Print the result
+print("The sum of", num1, "and", num2, "is", sum)
+```
+
+This code prompts the user to enter two numbers, calculates their sum, and then prints the result.
+
+Sure, here's an example of Python code that generates a Fibonacci sequence:
+
+```python
+def fibonacci(num):
+    fib_seq = [0, 1]
+    for i in range(2, num):
+        fib_seq.append(fib_seq[i-1] + fib_seq[i-2])
+    return fib_seq
+
+n = 10
+fibonacci_sequence = fibonacci(n)
+print(fibonacci_sequence)
+```
+
+This code defines a function `fibonacci` that takes a number `num` as input and returns a list of the Fibonacci sequence up to that number. It then calls the `fibonacci` function with `n = 10` and prints the resulting sequence. You can adjust the value of `n` to generate a larger or smaller sequence.
+
+Sure, here is an example of simple Python code:
+
+```
+# This program prints "Hello, World!" to the console
+print("Hello, World!")
+```
+
+Is there anything specific you would like the code to do?To rotate a vector in 2D, you can use the following Python code:
+
+```python
+import math
+
+def rotate_vector(vector, angle):
+    x = vector[0]
+    y = vector[1]
+    
+    # Convert angle from degrees to radians
+    angle_radians = math.radians(angle)
+    
+    # Calculate new x and y coordinates after rotation
+    new_x = x * math.cos(angle_radians) - y * math.sin(angle_radians)
+    new_y = x * math.sin(angle_radians) + y * math.cos(angle_radians)
+    
+    return [new_x, new_y]
+```
+
+You can call the `rotate_vector` function by passing in the vector and the desired angle of rotation. The function will return a new vector with the rotated coordinates.
